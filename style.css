@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: white;
+    color: red;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -685,7 +685,7 @@ footer span a:hover{
     height: 300px;
 }
 a{
-    color: white;
+    /* color: white; */
     text-decoration: none;
 }
 a:hover{
@@ -714,11 +714,13 @@ a:hover{
 
 .imgLogo{
     width: 55%;
-    height: 80%;
+    height: 120px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    /* border: 1px solid red; */
 }
 #skillsec{
     width: 80%;
-    grid-gap: 1%;
+    grid-gap: 2%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(4, 30%);
@@ -734,5 +736,8 @@ a:hover{
 .contlogo{
     width: 35%;
     height:40px;
+}
+#emailid{
+    color: grey;
 }
 
