@@ -217,7 +217,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
+    content: "Who am I";
 }
 .about .about-content .left{
     width: 45%;
@@ -271,7 +271,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide";
+    content: "What I Provide";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -308,7 +308,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "What I Know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -713,10 +713,8 @@ a:hover{
 }
 
 .imgLogo{
-    width: 55%;
-    height: 120px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    /* border: 1px solid red; */
+    width: 80px;
+    height: 96px;
 }
 #skillsec{
     width: 80%;
